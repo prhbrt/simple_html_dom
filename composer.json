@@ -1,0 +1,30 @@
+{
+    "name": "chen/simplehtmldom",
+    "type": "library",
+    "description": "A PHP library for parsing html",
+    "keywords": ["parse", "html", "library", "php"],
+    "homepage": "http://simplehtmldom.sourceforge.net/",
+    "authors": [
+        {
+            "name": "S.C. Chen",
+            "email": "me578022@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "John Schlick",
+            "role": "Developer"
+        },
+        {
+            "name": "Rus Carroll Almond",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "SimpleHtmlDOM": "src/"
+        }
+    }
+}
